@@ -31,6 +31,16 @@ h2 {
   margin-left: 0px;
 }
 
+.h2-saladas {
+  margin-left: 6%;
+}
+
+.saladas-hr {
+  margin-left: -136px;
+  margin-top: 4px;
+  width: 67%;
+}
+
 h3 {
 
   font-size: 40px;
@@ -84,15 +94,6 @@ hr {
   float: right;
 }
 
-.linha ::after {
-  justify-content: center;
-  content: " ";
-  background-color: rgb(185, 155, 111);
-  display: flex;
-  height: 1px;
-  width: 100%;
-}
-
 .valores {
 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -100,7 +101,7 @@ hr {
   font-size: 200%;
   color: rgb(185, 155, 111);
   ;
-  margin-top: 2%;
+  margin-top: 1%;
 }
 
 
