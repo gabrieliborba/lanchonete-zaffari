@@ -1,5 +1,5 @@
 body {
-  width: 98%;
+  width: 68%;
   background-color: rgb(246, 243, 238);
   margin: auto;
 }
@@ -36,9 +36,9 @@ h2 {
 }
 
 .saladas-hr {
-  margin-left: -350px;
+  margin-left: -235px;
   margin-top: -5px;
-  width: 66%;
+  width: 92%;
 }
 
 .tuna-hr {
