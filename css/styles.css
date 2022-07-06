@@ -32,19 +32,26 @@ h2 {
 }
 
 .h2-saladas {
-  margin-left: 17%;
+  margin-left: -2;
 }
 
 .saladas-hr {
-  margin-left: -235px;
+  margin-left: -209px;
   margin-top: -5px;
-  width: 92%;
+  width: 100%;
 }
 
 .tuna-hr {
   margin-right: 133px;
   margin-top: 0%;
-  width: 451px;
+  width: 407px;
+  top: 25%;
+}
+
+.caesar-hr {
+  margin-right: 133px;
+  margin-top: 0%;
+  width: 453px;
   top: 25%;
 }
 
@@ -60,6 +67,15 @@ p {
   display: flex;
   font-size: 26px;
   margin: 10px 10px;
+}
+
+#bacon {
+  margin-left: 50%;
+}
+
+.hamburguer-bacon {
+  color: rgb(185, 155, 111);
+  margin-left: 50%;
 }
 
 hr {
@@ -84,6 +100,7 @@ hr {
 
   width: 99%;
   margin: auto;
+  margin-left: -18%;
   display: flex;
 
 }
@@ -112,6 +129,14 @@ hr {
   margin-top: 1%;
 }
 
+#valores-bacon {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 200%;
+  color: rgb(185, 155, 111);
+  margin-top: 1%;
+}
+
 
 /* imagens */
 main img {
@@ -128,4 +153,15 @@ main img:hover {
 
 main img:hover::after {
   opacity: 1;
+}
+
+#img-bacon {
+  width: 180%;
+  margin-top: 5px;
+  margin-left: 30%;
+  border-radius: 50%;
+  margin: 10px 30px;
+  z-index: 10;
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transform: scale(0.80, 0.80);
 }
