@@ -39,6 +39,10 @@ h3 {
   margin: 10px 10px;
 }
 
+#h3-carne {
+  color: rgb(185, 155, 111);
+}
+
 hr {
   background-color: rgb(185, 155, 111);
   height: 1.35px;
@@ -65,12 +69,14 @@ p {
   top: 25%;
 
 }
+
 .tuna-hr {
   margin-right: 133px;
   margin-top: 0%;
   width: 407px;
   top: 25%;
 }
+
 .caesar-hr {
   margin-right: 133px;
   margin-top: 0%;
@@ -85,12 +91,20 @@ p {
   width: 407px;
   top: 25%;
 }
+
+.carne {
+  position: relative;
+  right: 9%;
+  top: 120px;
+}
+
 .gourmet-hr {
   margin-right: 133px;
   margin-top: 0%;
   width: 407px;
   top: 25%;
 }
+
 .based-hr {
   margin-right: 133px;
   margin-top: 0%;
@@ -121,6 +135,12 @@ p {
   padding: 0px;
 }
 
+#item-carne {
+  width: 30%;
+  position: relative;
+  right: 8%;
+}
+
 .preco {
   display: flex;
   float: right;
@@ -135,13 +155,25 @@ p {
   margin-top: 1%;
 }
 
+.valor-carne {
+  margin-left: 0%;
+  position: relative;
+  left: 10%;
+  top: 148px;
+  color: rgb(185, 155, 111);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 200%;
+}
+
 /* imagens */
 main img {
   border-radius: 50%;
-  margin: 10px 30px;
+  margin: 11px 2px;
   z-index: 10;
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   transform: scale(0.80, 0.80);
+  box-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
 
 main img:hover {
@@ -149,6 +181,5 @@ main img:hover {
 }
 
 main img:hover::after {
-  opacity: 1;
+  opacity: 1.0%;
 }
-
