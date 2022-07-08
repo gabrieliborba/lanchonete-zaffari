@@ -54,6 +54,14 @@ hr {
   top: 22%;
 }
 
+.div,
+.valor-carne {
+  background-color: rgb(185, 155, 111);
+  width: 100px;
+  height: 92px;
+  border-radius: 50%;
+}
+
 p {
   font-family: 'Roboto', sans-serif;
   display: flex;
@@ -160,7 +168,7 @@ p {
   position: relative;
   left: 10%;
   top: 148px;
-  color: rgb(185, 155, 111);
+  color: rgb(246, 243, 238);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   font-size: 200%;
