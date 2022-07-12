@@ -25,15 +25,17 @@ li {
 }
 
 h2 {
-  width: 99%;
-  font-size: 60px;
+  font-weight: normal;
+
+  font-family: 'Josefin Sans', sans-serif;
+
+  font-size: 40px;
+
   margin: 10px 10px;
-  margin-left: 0px;
+
+  margin-left: -2px;
 }
 
-.h2-saladas {
-  margin-left: -2;
-}
 
 .saladas-hr {
   margin-left: -209px;
@@ -87,7 +89,24 @@ hr {
   position: relative;
   left: 18%;
   top: 22%;
+}
 
+.carne-hr {
+  margin-left: 270px;
+  margin-top: 6px;
+  width: 46%;
+}
+
+.gourmet-hr {
+  margin-left: 270px;
+  margin-top: 6px;
+  width: 46%;
+}
+
+.based-hr {
+  margin-left: 335px;
+  margin-top: 6px;
+  width: 40%;
 }
 
 /* conteiner */
@@ -134,7 +153,8 @@ hr {
   font-weight: bold;
   font-size: 200%;
   color: rgb(185, 155, 111);
-  margin-top: 1%;
+  margin-top: 4%;
+  margin-left: 67%;
 }
 
 
@@ -156,7 +176,7 @@ main img:hover::after {
 }
 
 #img-bacon {
-  width: 180%;
+  width: 100%;
   margin-top: 5px;
   margin-left: 30%;
   border-radius: 50%;
